@@ -1,0 +1,219 @@
+[
+  {
+    "page_id": "60cdd278d485426860b64033fef4e0e61db267f0",
+    "job_id": "b93cf90c-71c4-4fba-a63e-62735a3b0b3c",
+    "url": "https://resmigazete.gov.tr/",
+    "domain": "resmigazete.gov.tr",
+    "depth": 0,
+    "text_path": "data/resmigazete_gov_tr/pages/text/60cdd278d485426860b64033fef4e0e61db267f0.txt",
+    "content_type": "text/html; charset=utf-8",
+    "discovered_links": [
+      "https://resmigazete.gov.tr/",
+      "https://resmigazete.gov.tr/fihrist?tarih=2025-12-31&mukerrer=6",
+      "https://resmigazete.gov.tr/08.01.2026",
+      "https://www.resmigazete.gov.tr/eskiler/2026/01/20260109-1.htm",
+      "https://www.resmigazete.gov.tr/eskiler/2026/01/20260109-2.htm",
+      "https://www.resmigazete.gov.tr/eskiler/2026/01/20260109-3.htm",
+      "https://www.resmigazete.gov.tr/eskiler/2026/01/20260109-4.htm",
+      "https://www.resmigazete.gov.tr/eskiler/2026/01/20260109-5.htm",
+      "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/01/20260109-2.htm",
+      "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/01/20260109-3.htm",
+      "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/01/20260109-4.htm",
+      "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/01/20260109-5.htm"
+    ],
+    "discovered_files": [
+      "https://www.resmigazete.gov.tr/eskiler/2026/01/20260109.pdf",
+      "https://www.resmigazete.gov.tr/eskiler/2026/01/20260109-6.pdf",
+      "https://www.resmigazete.gov.tr/eskiler/2026/01/20260109-7.pdf"
+    ],
+    "content_hash": "61f7d67a03e57a3acc059f3139a296866cd45cfe5f43cd75d92c7561e0dc499d",
+    "text_len": 41802
+  },
+  {
+    "page_id": "2a4f3c08a897a97b0adf27807858c4cbbf06eac9",
+    "job_id": "b93cf90c-71c4-4fba-a63e-62735a3b0b3c",
+    "url": "https://resmigazete.gov.tr/fihrist?tarih=2025-12-31&mukerrer=6",
+    "domain": "resmigazete.gov.tr",
+    "depth": 1,
+    "text_path": "data/resmigazete_gov_tr/pages/text/2a4f3c08a897a97b0adf27807858c4cbbf06eac9.txt",
+    "content_type": "text/html; charset=utf-8",
+    "discovered_links": [
+      "https://resmigazete.gov.tr/",
+      "https://resmigazete.gov.tr/fihrist?tarih=2025-12-31&mukerrer=5",
+      "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2025/12/20251231%20M6-4.htm",
+      "https://resmigazete.gov.tr/fihrist?tarih=2025-12-31&mukerrer=6"
+    ],
+    "discovered_files": [
+      "https://www.resmigazete.gov.tr/eskiler/2025/12/20251231M6.pdf",
+      "https://www.resmigazete.gov.tr/eskiler/2025/12/20251231M6-1.pdf",
+      "https://www.resmigazete.gov.tr/eskiler/2025/12/20251231M6-2.pdf",
+      "https://www.resmigazete.gov.tr/eskiler/2025/12/20251231M6-3.pdf",
+      "https://www.resmigazete.gov.tr/eskiler/2025/12/20251231M6-4.pdf",
+      "https://www.resmigazete.gov.tr/eskiler/2025/12/20251231M6-5.pdf",
+      "https://www.resmigazete.gov.tr/eskiler/2025/12/20251231M6-6.pdf",
+      "https://www.resmigazete.gov.tr/eskiler/2025/12/20251231M6-7.pdf",
+      "https://www.resmigazete.gov.tr/eskiler/2025/12/20251231M6-8.pdf",
+      "https://www.resmigazete.gov.tr/eskiler/2025/12/20251231M6-9.pdf",
+      "https://www.resmigazete.gov.tr/eskiler/2025/12/20251231M6-10.pdf",
+      "https://www.resmigazete.gov.tr/eskiler/2025/12/20251231M6-11.pdf",
+      "https://www.resmigazete.gov.tr/eskiler/2025/12/20251231M6-12.pdf",
+      "https://www.resmigazete.gov.tr/eskiler/2025/12/20251231M6-13.pdf",
+      "https://www.resmigazete.gov.tr/eskiler/2025/12/20251231M6-14.pdf"
+    ],
+    "content_hash": "f8791969d8bcdbdaa443dfeba123de17988ee4307bdf51ff911b39c740313942",
+    "text_len": 4299
+  },
+  {
+    "page_id": "3cf5338d40aab8160b15f83862480bf84b8e17c8",
+    "job_id": "b93cf90c-71c4-4fba-a63e-62735a3b0b3c",
+    "url": "https://resmigazete.gov.tr/08.01.2026",
+    "domain": "resmigazete.gov.tr",
+    "depth": 1,
+    "text_path": "data/resmigazete_gov_tr/pages/text/3cf5338d40aab8160b15f83862480bf84b8e17c8.txt",
+    "content_type": "text/html; charset=utf-8",
+    "discovered_links": [
+      "https://resmigazete.gov.tr/",
+      "https://resmigazete.gov.tr/08.01.2026",
+      "https://resmigazete.gov.tr/fihrist?tarih=2025-12-31&mukerrer=6",
+      "https://resmigazete.gov.tr/07.01.2026",
+      "https://resmigazete.gov.tr/09.01.2026",
+      "https://www.resmigazete.gov.tr/eskiler/2026/01/20260108-13.htm",
+      "https://www.resmigazete.gov.tr/eskiler/2026/01/20260108-14.htm",
+      "https://www.resmigazete.gov.tr/eskiler/2026/01/20260108-15.htm",
+      "https://www.resmigazete.gov.tr/eskiler/2026/01/20260108-16.htm",
+      "https://www.resmigazete.gov.tr/eskiler/2026/01/20260108-17.htm",
+      "https://www.resmigazete.gov.tr/eskiler/2026/01/20260108-18.htm",
+      "https://www.resmigazete.gov.tr/eskiler/2026/01/20260108-19.htm",
+      "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/01/20260108-2.htm",
+      "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/01/20260108-3.htm",
+      "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/01/20260108-4.htm",
+      "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/01/20260108-5.htm"
+    ],
+    "discovered_files": [
+      "https://www.resmigazete.gov.tr/eskiler/2026/01/20260108.pdf",
+      "https://www.resmigazete.gov.tr/eskiler/2026/01/20260108-1.pdf",
+      "https://www.resmigazete.gov.tr/eskiler/2026/01/20260108-2.pdf",
+      "https://www.resmigazete.gov.tr/eskiler/2026/01/20260108-3.pdf",
+      "https://www.resmigazete.gov.tr/eskiler/2026/01/20260108-4.pdf",
+      "https://www.resmigazete.gov.tr/eskiler/2026/01/20260108-5.pdf",
+      "https://www.resmigazete.gov.tr/eskiler/2026/01/20260108-6.pdf",
+      "https://www.resmigazete.gov.tr/eskiler/2026/01/20260108-7.pdf",
+      "https://www.resmigazete.gov.tr/eskiler/2026/01/20260108-8.pdf",
+      "https://www.resmigazete.gov.tr/eskiler/2026/01/20260108-9.pdf",
+      "https://www.resmigazete.gov.tr/eskiler/2026/01/20260108-10.pdf",
+      "https://www.resmigazete.gov.tr/eskiler/2026/01/20260108-11.pdf",
+      "https://www.resmigazete.gov.tr/eskiler/2026/01/20260108-12.pdf",
+      "https://www.resmigazete.gov.tr/eskiler/2026/01/20260108-20.pdf",
+      "https://www.resmigazete.gov.tr/eskiler/2026/01/20260108-21.pdf"
+    ],
+    "content_hash": "db1478324cc086fa4fa9302cacdc4b66244e8fda29a11f8b0d69113cb3b77546",
+    "text_len": 45241
+  },
+  {
+    "page_id": "4932112a8591c3fb3b013599d464c82fab1dea5d",
+    "job_id": "b93cf90c-71c4-4fba-a63e-62735a3b0b3c",
+    "url": "https://www.resmigazete.gov.tr/eskiler/2026/01/20260109-1.htm",
+    "domain": "resmigazete.gov.tr",
+    "depth": 1,
+    "text_path": "data/resmigazete_gov_tr/pages/text/4932112a8591c3fb3b013599d464c82fab1dea5d.txt",
+    "content_type": "text/html",
+    "discovered_links": [],
+    "discovered_files": [
+      "https://www.resmigazete.gov.tr/eskiler/2026/01/20260109-1-1.pdf"
+    ],
+    "content_hash": "02957340ca8a0ee0b58074f9ce28f29d931a8f4b008e5d47f58b9db8c73522ed",
+    "text_len": 63366
+  },
+  {
+    "page_id": "e404cb0220bad67ea1b9aa9397bbd05d525fd1a5",
+    "job_id": "b93cf90c-71c4-4fba-a63e-62735a3b0b3c",
+    "url": "https://www.resmigazete.gov.tr/eskiler/2026/01/20260109-3.htm",
+    "domain": "resmigazete.gov.tr",
+    "depth": 1,
+    "text_path": "data/resmigazete_gov_tr/pages/text/e404cb0220bad67ea1b9aa9397bbd05d525fd1a5.txt",
+    "content_type": "text/html",
+    "discovered_links": [],
+    "discovered_files": [],
+    "content_hash": "b12b6d1aeebc419f6f769c102815bbd68ad19f9dafcb0bf75982fec0b0a0e6e6",
+    "text_len": 10731
+  },
+  {
+    "page_id": "7951c7451f88956e8ef969f57209d874e4ec6de0",
+    "job_id": "b93cf90c-71c4-4fba-a63e-62735a3b0b3c",
+    "url": "https://www.resmigazete.gov.tr/eskiler/2026/01/20260109-2.htm",
+    "domain": "resmigazete.gov.tr",
+    "depth": 1,
+    "text_path": "data/resmigazete_gov_tr/pages/text/7951c7451f88956e8ef969f57209d874e4ec6de0.txt",
+    "content_type": "text/html",
+    "discovered_links": [],
+    "discovered_files": [],
+    "content_hash": "51970ef0cb63309a4f8ef7223d9771ed975553375c398e68c6835b9d33cec2ca",
+    "text_len": 1270
+  },
+  {
+    "page_id": "664e8e1f253a05237e3ba6a5aa0367491009b2d4",
+    "job_id": "b93cf90c-71c4-4fba-a63e-62735a3b0b3c",
+    "url": "https://www.resmigazete.gov.tr/eskiler/2026/01/20260109-4.htm",
+    "domain": "resmigazete.gov.tr",
+    "depth": 1,
+    "text_path": "data/resmigazete_gov_tr/pages/text/664e8e1f253a05237e3ba6a5aa0367491009b2d4.txt",
+    "content_type": "text/html",
+    "discovered_links": [],
+    "discovered_files": [],
+    "content_hash": "848c147d974862e7e8161164009c6ee07f1f84cbe14be7e7f332f4cf2231919f",
+    "text_len": 9426
+  },
+  {
+    "page_id": "bafce85d5f6c83af5c946541bae162df2040ead8",
+    "job_id": "b93cf90c-71c4-4fba-a63e-62735a3b0b3c",
+    "url": "https://www.resmigazete.gov.tr/eskiler/2026/01/20260109-5.htm",
+    "domain": "resmigazete.gov.tr",
+    "depth": 1,
+    "text_path": "data/resmigazete_gov_tr/pages/text/bafce85d5f6c83af5c946541bae162df2040ead8.txt",
+    "content_type": "text/html",
+    "discovered_links": [],
+    "discovered_files": [
+      "https://www.resmigazete.gov.tr/eskiler/2026/01/20260109-5-1.pdf"
+    ],
+    "content_hash": "f19b0012d932228af7139ad4474ab461417dd1005b473052202d8fb4ea697dd9",
+    "text_len": 1168
+  },
+  {
+    "page_id": "9dccd5b91eb6de37c4cac15fc5cbb8e7c5c08493",
+    "job_id": "b93cf90c-71c4-4fba-a63e-62735a3b0b3c",
+    "url": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/01/20260109-2.htm",
+    "domain": "resmigazete.gov.tr",
+    "depth": 1,
+    "text_path": "data/resmigazete_gov_tr/pages/text/9dccd5b91eb6de37c4cac15fc5cbb8e7c5c08493.txt",
+    "content_type": "text/html",
+    "discovered_links": [],
+    "discovered_files": [
+      "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/01/20260109-2-1.pdf",
+      "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/01/20260109-2-2.pdf",
+      "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/01/20260109-2-3.pdf",
+      "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/01/20260109-2-4.pdf"
+    ],
+    "content_hash": "3113bab65882ace26d6a8722f2d3ed9dd19ce49d3e251b8ef59e58d1fbc8eea7",
+    "text_len": 247
+  },
+  {
+    "page_id": "063e7bc1f9232afdcdb82039eeb281c53b802c5a",
+    "job_id": "b93cf90c-71c4-4fba-a63e-62735a3b0b3c",
+    "url": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/01/20260109-3.htm",
+    "domain": "resmigazete.gov.tr",
+    "depth": 1,
+    "text_path": "data/resmigazete_gov_tr/pages/text/063e7bc1f9232afdcdb82039eeb281c53b802c5a.txt",
+    "content_type": "text/html",
+    "discovered_links": [],
+    "discovered_files": [
+      "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/01/20260109-3-1.pdf",
+      "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/01/20260109-3-2.pdf",
+      "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/01/20260109-3-3.pdf",
+      "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/01/20260109-3-4.pdf",
+      "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/01/20260109-3-5.pdf",
+      "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/01/20260109-3-6.pdf"
+    ],
+    "content_hash": "4a1d330517fbb0b77ea9ef35053eb05646b607306799f0387164580f0e63f6f8",
+    "text_len": 673
+  }
+]
