@@ -2,7 +2,7 @@
 -- PostgreSQL database dump
 --
 
-\restrict p69E4qJhj845ydAiDCyB26p4dJ5LIsTp0IkGGu2bbCODG3Wvunubmc6W4eGpaUM
+\restrict OjOtXeRpGv9zivQbUallP5X7vHC5DhCNZm16WTeQlvyYERLSkH5LGxt3Plxm8PC
 
 -- Dumped from database version 15.15 (Homebrew)
 -- Dumped by pg_dump version 15.15 (Homebrew)
@@ -106,6 +106,8 @@ CREATE TABLE public.raw_documents (
     text_len integer,
     created_at timestamp without time zone DEFAULT now(),
     updated_at timestamp without time zone DEFAULT now(),
+    agent_id text NOT NULL,
+    project_id integer NOT NULL,
     CONSTRAINT raw_documents_source_type_check CHECK ((source_type = ANY (ARRAY['page'::text, 'file'::text])))
 );
 
@@ -127,11 +129,19 @@ ALTER TABLE ONLY public.raw_documents
 
 
 --
--- Name: raw_documents raw_documents_source_type_source_id_key; Type: CONSTRAINT; Schema: public; Owner: -
+-- Name: raw_documents raw_documents_unique_per_project; Type: CONSTRAINT; Schema: public; Owner: -
 --
 
 ALTER TABLE ONLY public.raw_documents
-    ADD CONSTRAINT raw_documents_source_type_source_id_key UNIQUE (source_type, source_id);
+    ADD CONSTRAINT raw_documents_unique_per_project UNIQUE (agent_id, project_id, source_type, source_id);
+
+
+--
+-- Name: raw_documents unique_source_id_type; Type: CONSTRAINT; Schema: public; Owner: -
+--
+
+ALTER TABLE ONLY public.raw_documents
+    ADD CONSTRAINT unique_source_id_type UNIQUE (source_type, source_id);
 
 
 --
@@ -149,8 +159,15 @@ CREATE INDEX idx_jobs_status_created ON public.jobs USING btree (status, created
 
 
 --
+-- Name: idx_raw_documents_agent_project; Type: INDEX; Schema: public; Owner: -
+--
+
+CREATE INDEX idx_raw_documents_agent_project ON public.raw_documents USING btree (agent_id, project_id);
+
+
+--
 -- PostgreSQL database dump complete
 --
 
-\unrestrict p69E4qJhj845ydAiDCyB26p4dJ5LIsTp0IkGGu2bbCODG3Wvunubmc6W4eGpaUM
+\unrestrict OjOtXeRpGv9zivQbUallP5X7vHC5DhCNZm16WTeQlvyYERLSkH5LGxt3Plxm8PC
 
