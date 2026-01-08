@@ -1,4 +1,3 @@
-import asyncio
 import json
 import aiofiles
 from db.postgres_store import PostgresStore
@@ -24,6 +23,8 @@ async def ingest_site(site_dir: str):
             content_length=p["text_len"],
             job_id=p["job_id"],
             site_key=p["domain"],
+            agent_id = p["agent_id"],
+            project_id = p["project_id"]
         )
 
     await pg.close()

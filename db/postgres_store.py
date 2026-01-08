@@ -69,7 +69,7 @@ class PostgresStore:
     async def insert_raw_document(
             self,
             *,
-            source_type: str,  # "page" | "file"
+            source_type: str,
             url: str,
             domain: str,
             content: str,
@@ -77,12 +77,14 @@ class PostgresStore:
             content_length: int,
             job_id: str | None,
             site_key: str,
+            agent_id: str,
+            project_id: int
     ):
         q = """
             INSERT INTO raw_documents (source_type, url, domain, \
                                        content, content_hash, content_length, \
-                                       job_id, site_key)
-            VALUES ($1, $2, $3, $4, $5, $6, $7, $8) ON CONFLICT (content_hash) DO NOTHING \
+                                       job_id, site_key, agent_id, project_id)
+            VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) ON CONFLICT (content_hash) DO NOTHING \
             """
         async with self.pool.acquire() as con:
             await con.execute(
@@ -95,6 +97,8 @@ class PostgresStore:
                 content_length,
                 job_id,
                 site_key,
+                agent_id,
+                project_id
             )
 
     async def get_existing_hash(self, source_type: str, source_id: str):
@@ -132,6 +136,8 @@ class PostgresStore:
         content_hash: str,
         content_type: str,
         text_len: int,
+        agent_id: str,
+        project_id: int
     ):
         """
         Hash-aware UPSERT:
@@ -139,12 +145,10 @@ class PostgresStore:
         - farklıysa UPDATE eder
         """
 
-        # 1️⃣ Önce hash kontrolü
         old = await self.get_existing_hash(source_type, source_id)
         if old and old["content_hash"] == content_hash:
             return "SKIPPED"
 
-        # 2️⃣ Farklıysa UPSERT
         q = """
         INSERT INTO raw_documents (
             source_type,
@@ -155,10 +159,12 @@ class PostgresStore:
             content_hash,
             content_type,
             text_len,
+            agent_id,
+            project_id,
             created_at,
             updated_at
         )
-        VALUES ($1,$2,$3,$4,$5,$6,$7,$8,NOW(),NOW())
+        VALUES ($1,$2,$3,$4,$5,$6,$7,$8,$9,$10,NOW(),NOW())
         ON CONFLICT (source_type, source_id)
         DO UPDATE SET
             raw_text     = EXCLUDED.raw_text,
@@ -179,6 +185,8 @@ class PostgresStore:
                 content_hash,
                 content_type,
                 text_len,
+                agent_id,
+                project_id
             )
 
         return "UPSERTED"

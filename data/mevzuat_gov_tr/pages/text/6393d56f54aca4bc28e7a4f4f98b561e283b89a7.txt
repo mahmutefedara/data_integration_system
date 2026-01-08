@@ -1,0 +1,632 @@
+Mevzuat Bilgi Sistemi
+T.C.
+CUMHURBAŞKANLIĞI
+MEVZUAT BİLGİ SİSTEMİ
+Mevzuat Türü
+Kanunlar
+Kanun Hükmünde Kararnameler
+Cumhurbaşkanlığı Kararnameleri
+Tüzükler
+Cumhurbaşkanı Kararları
+Cumhurbaşkanlığı Genelgeleri
+Yönetmelikler
+Tebliğler
+T.C. Anayasası
+Mülga Mevzuat
+Kanunlar Fihristi
+Cumhurbaşkanlığı Kararnameleri Fihristi
+Yayınlar
+CUMHURBAŞKANLIĞI KARARNAMELERİ KÜLLİYATI
+205 KANUN
+TAHKİM KİTABI
+TAHKİMDE GÜNCEL SORUNLAR V-VI
+TAHKİMDE GÜNCEL GELİŞMELER SEMİNER KİTABI
+T.C. RESMÎ GAZETE İLK 100 SAYI CİLT-I
+T.C. RESMÎ GAZETE İLK 100 SAYI CİLT-II
+TAHKİM SEMPOZYUM KİTABI
+Oturum Aç
+Favorilerim
+Üye Bilgileri
+Üye Bilgileri
+Çıkış
+MEVZUAT BİLGİ SİSTEMİ
+Şifre Değiştirme
+×
+Güncelle
+Üyelik Bilgileri
+×
+Adınız
+Soyadınız
+Mesleğiniz
+Güncelle
+Yardım
+Geri
+MEVZUAT
+                                        BİLGİ SİSTEMİ
+KULLANICI
+                                        REHBERİ
+GENEL BİLGİLER
+Mevzuat Türü araması yapıldığında sonuçlar en güncel tarihli
+                                    mevzuattan başlayarak geçmişe doğru sıralanır. Genel Aramada ise aranan mevzuat
+                                    önce normlar hiyerarşisine göre getirilmektedir. Aynı mevzuat türü arasında ise
+                                    yakın tarihli olan mevzuat daha üstte görüntülenmektedir.
+Arama kutucuklarının sağ alt köşesinde bulunan Temizle butonu
+                                    kullanılarak, sayfadan ayrılmaya gerek kalmaksızın sayfa yeni aramaya hazır
+                                    hale getirilir.
+A) GENEL ARAMA
+Genel arama bölümü, anahtar kelimeler kullanılarak tüm mevzuat
+                                    içerisinde pratik arama yapma imkânı sunmaktadır.
+Genel arama kısmına arama kelimesi yazıldığında öncelikle
+                                    başlığında arama kelimesi olan mevzuat normlar hiyerarşisine göre sıralanır.
+                                    “İçerik “ ya da “Tümü” butonları, aramanın yapılacağı yerleri seçme imkânı
+                                    sunmaktadır. Arama sayfasının en sonunda ise toplam kayıt sayısı
+                                    gösterilmektedir.
+Ekranın sağ orta bölümünde yer alan türü kutucuğu kullanılarak,
+                                    ana ekrana dönmeye gerek kalmadan mevzuat türleri arasında kolaylıkla geçiş
+                                    yapılabilmektedir.
+Genel Arama Mevzuat Numarasıyla da yapılabilmektedir. Örneğin
+                                    Genel Arama Kutucuğuna 657 yazıldığında sonuçlar hem mevzuat numarasında hem de
+                                    başlık içerisinde olacak şekilde listelenmektedir.
+B) ANA MENÜ: MEVZUAT TÜRÜ
+1-
+                                        KANUNLAR
+a)
+                                        Aranacak İfade:
+Aranacak İfade
+kutucuğuna aramak istenilen kelime ya da kelimeler yazılmak
+                                    suretiyle arama yapılabilir. Arama
+içerik
+veya
+başlık
+olarak
+                                    sınırlandırılmamışsa aranılan kelimenin bulunduğu tüm kanunlar listelenir.
+b)
+                                        Aranacak Yer:
+Aranacak Yer
+kutucuğunda
+“Tümü, İçerik, Başlık”
+olmak üzere
+                                    üç ayrı seçenek vardır. Kelime araması yapıldığında
+İçerik
+veya
+Başlık
+seçeneklerinden
+                                    biri seçilmek suretiyle arama sonuçları sadeleştirilebilmektedir.
+c)
+                                        Kanun Sayısı:
+Bir kanunu sayısı ile bulmak için
+Kanun
+                                        Sayısı
+kutucuğu doldurularak, diğer kutucukları doldurmaya gerek
+                                    kalmadan arama yapılabilmektedir.
+ç)
+                                        Yıl Aralığı:
+Yıl Aralığı
+kutucuklarını doldurarak arama kapsamı daraltılabilmektedir.
+                                    Böylelikle daha sade sonuçlar elde edilebilmektedir.
+d) Tam
+                                        Cümle:
+Aranacak İfade
+kutucuğuna birden fazla kelime yazıldığında
+Tam Cümle
+kutucuğu
+                                    işaretlenerek kelimeler yan yana ve cümle içerisinde aranır.
+Tam Cümle
+kutucuğunu
+                                    tıklanıp,
+Aranacak Yer
+kutucuğundan
+“Başlık, İçerik,
+                                        Tümü”
+seçeneklerinden biri daha seçilirse daha sade arama sonuçları
+                                    elde edilebilmektedir.
+Arama
+                                    tamamlanıp, istenilen
+mevzuat
+                                    görüntülenince aşağıda belirtilen simgeye tıklamak suretiyle ekrandaki metin
+                                    yazıcıya gönderilebilmekte ve mevzuat basılı hale getirilebilmektedir.
+2- CUMHURBAŞKANLIĞI
+                                        KARARNAMELERİ
+a) Aranacak İfade:
+Kanun
+                                        aramasında olduğu gibi Cumhurbaşkanlığı Kararnameleri aramasında
+                                        da
+Aranacak İfade
+kutucuğuna aramak istenilen kelime ya da
+                                        kelimeler yazılmak suretiyle arama yapılabilir.
+b) Aranacak Yer:
+Aranacak
+                                            Yer
+kutucuğu,
+Aranacak İfade
+kutucuğu ile birlikte işlevsel
+                                        hale geldiğinden; aranmak istenen kelime/kelimeler ile
+                                        birlikte içerik veya başlık sınırlandırılması yapılırsa
+                                        daha sade sonuçlar elde edilir.
+c) Kararname Sayısı:
+Bir
+                                        kararnameyi sayısı ile bulmak için
+Kararname Sayısı
+kutucuğu
+                                        doldurularak, diğer kutucukları doldurmaya gerek kalmadan arama
+                                        yapılabilmektedir.
+ç) Yıl Aralığı:
+Yıl
+                                            Aralığı
+kutucuklarını doldurarak arama kapsamı daraltılabilmektedir.
+                                        Böylelikle daha sade sonuçlar elde edilebilmektedir.
+d) Tam Cümle:
+Aranacak
+                                            İfade
+kutucuğuna birden fazla kelime yazıldığında
+Tam Cümle
+kutucuğu
+                                        işaretlenerek kelimeler yan yana ve cümle içerisinde aranır.
+Tam
+                                            Cümle
+kutucuğunu tıklanıp,
+Aranacak Yer
+kutucuğundan “
+Başlık,
+                                            İçerik, Tümü”
+seçeneklerinden biri daha seçilirse daha sade arama
+                                        sonuçları elde edilebilmektedir.
+Arama tamamlanıp,
+                                        istenilen mevzuat görüntülenince aşağıda belirtilen simgeye tıklamak suretiyle
+                                        ekrandaki metin yazıcıya gönderilebilmekte ve mevzuat basılı hale
+                                        getirilebilmektedir.
+3-
+CUMHURBAŞKANLIĞI/ BAKANLAR KURULU
+                                        YÖNETMELİKLERİ
+Cumhurbaşkanlığı/ Bakanlar Kurulu Yönetmelikleri sekmes
+i kullanılarak her iki
+                                        mevzuat
+türü içerisinde tek sayfa
+                                        üzerinden arama yapılabilmektedir.
+a) Aranacak
+                                        İfade:
+Aranacak İfade
+kutucuğuna aramak istenilen kelime ya da kelimeler yazılmak
+                                    suretiyle arama yapılabilir. Arama
+içerik
+veya
+başlık
+olarak
+                                    sınırlandırılmamışsa aranılan kelimenin bulunduğu tüm kararlar listelenir.
+b)
+                                        Aranacak Yer:
+Aranmak istenen kelime/kelimeler
+                                    ile birlikte içerik veya başlık sınırlandırılması yapılırsa daha sade sonuçlar
+                                    elde edilir.
+ç)
+                                        Yıl Aralığı:
+Yıl Aralığı
+kutucuklarını doldurarak arama kapsamı daraltılabilmektedir.
+                                    Böylelikle daha sade sonuçlar elde edilebilmektedir.
+d)
+                                        Tam Cümle:
+Aranacak İfade
+kutucuğuna birden fazla kelime yazıldığında
+Tam Cümle
+kutucuğu
+                                    işaretlenerek kelimeler yan yana ve cümle içerisinde aranır.
+Tam Cümle
+kutucuğunu
+                                    tıklanıp,
+Aranacak Yer
+kutucuğundan
+“Başlık, İçerik,
+                                        Tümü”
+seçeneklerinden biri daha seçilirse daha sade arama sonuçları
+                                    elde edilebilmektedir.
+Arama
+                                    tamamlanıp, istenilen mevzuat görüntülenince aşağıda belirtilen simgeye
+                                    tıklamak suretiyle ekrandaki metin yazıcıya gönderilebilmekte ve mevzuat basılı
+                                    hale getirilebilmektedir.
+4-CUMHURBAŞKANI KARARLARI
+a)
+                                        Aranacak İfade:
+Aranacak İfade
+kutucuğuna aramak istenilen kelime ya da kelimeler yazılmak
+                                    suretiyle arama yapılabilir. Arama
+içerik
+veya
+başlık
+olarak
+                                    sınırlandırılmamışsa aranılan kelimenin bulunduğu tüm karar listelenir.
+b)
+                                        Aranacak Yer:
+Aranmak istenen
+                                    kelime/kelimeler ile birlikte içerik veya başlık sınırlandırılması yapılırsa
+                                    daha sade sonuçlar elde edilir.
+c)
+                                        Karar Numarası:
+Bir Cumhurbaşkanı
+                                    Kararı numarası ile aranmak isteniyorsa
+Karar Numarası
+kutucuğu
+                                    doldurularak arama yapılabilir. Başka bir kutucuğu doldurmaya gerek yoktur.
+ç)
+                                        Yıl Aralığı:
+Yıl Aralığı
+kutucuklarını doldurarak arama kapsamı daraltılabilmektedir.
+                                    Böylelikle daha sade sonuçlar elde edilebilmektedir.
+d)
+                                        Tam Cümle:
+Aranacak İfade
+kutucuğuna birden fazla kelime yazıldığında
+Tam Cümle
+kutucuğu
+                                    işaretlenerek kelimeler yan yana ve cümle içerisinde aranır.
+Tam Cümle
+kutucuğunu
+                                    tıklanıp,
+Aranacak Yer
+kutucuğundan
+“Başlık, İçerik,
+                                        Tümü”
+seçeneklerinden biri daha seçilirse daha sade arama sonuçları
+                                    elde edilebilmektedir.
+Cumhurbaşkanı Kararları, Mevzuat Bilgi Sisteminde
+                                        daha çok PDF formatında tutulmaktadır. Bu sebeple sistemde tutulan her Karar
+                                        Word dosyası formatında indirilememektedir.
+5-CUMHURBAŞKANLIĞI
+                                        GENELGELERİ
+a)
+                                        Aranacak İfade:
+Aranacak İfade
+kutucuğuna aramak istenilen kelime ya da kelimeler yazılmak
+                                    suretiyle arama yapılabilir.
+b)
+                                        Yıl Aralığı:
+Yıl Aralığı
+kutucuklarını doldurarak arama kapsamı daraltılabilmektedir.
+                                        Böylelikle daha sade sonuçlar elde edilebilmektedir.
+6-KANUN HÜKMÜNDE
+                                        KARARNAMELER
+a) Aranacak
+                                        İfade:
+Aranacak İfade
+kutucuğuna aramak istenilen kelime ya da kelimeler yazılmak
+                                    suretiyle arama yapılabilir.
+                                    Arama içerik veya başlık olarak sınırlandırılmamışsa
+                                    aranılan kelimenin bulunduğu tüm karar listelenir.
+b)
+                                        Aranacak Yer:
+Aranmak istenen
+                                    kelime/kelimeler ile
+                                    birlikte içerik veya başlık sınırlandırılması yapılırsa
+                                    daha sade sonuçlar elde edilir.
+c)
+                                        Sayısı:
+Bir
+                                        Kanun Hükmünde Kararname sayısı
+ile aranmak
+                                    isteniyorsa
+Sayısı
+kutucuğu doldurularak arama yapılabilir. Başka bir
+                                    kutucuğu doldurmaya gerek yoktur.
+ç)
+                                        Yıl Aralığı:
+Yıl Aralığı
+kutucuklarını doldurarak arama kapsamı daraltılabilmektedir.
+                                    Böylelikle daha sade sonuçlar elde edilebilmektedir.
+d)
+                                        Tam Cümle:
+Aranacak İfade
+kutucuğuna birden fazla kelime yazıldığında
+Tam Cümle
+kutucuğu
+                                    işaretlenerek kelimeler yan yana ve cümle içerisinde aranır.
+Tam Cümle
+kutucuğunu
+                                    tıklanıp,
+Aranacak Yer
+kutucuğundan
+“Başlık, İçerik,
+                                        Tümü”
+seçeneklerinden biri daha seçilirse daha sade arama sonuçları
+                                    elde edilebilmektedir.
+Arama
+                                    tamamlanıp, istenilen mevzuat görüntülenince aşağıda belirtilen simgeye
+                                    tıklamak suretiyle ekrandaki metin yazıcıya gönderilebilmekte ve mevzuat basılı
+                                    hale getirilebilmektedir.
+7-
+                                        TÜZÜKLER
+a)
+                                        Aranacak İfade:
+Aranacak İfade
+kutucuğuna aramak istenilen kelime ya da kelimeler yazılmak
+                                    suretiyle arama yapılabilir. Arama
+içerik
+veya
+başlık
+olarak
+                                    sınırlandırılmamışsa aranılan kelimenin bulunduğu tüm karar listelenir.
+b)
+                                        Aranacak Yer:
+Aranmak istenen
+                                    kelime/kelimeler ile birlikte
+içerik
+veya
+başlık
+sınırlandırılması
+                                    yapılırsa daha sade sonuçlar elde edilir.
+c)
+                                        Türü:
+Türü kutucuğunda bulunan
+Tüzük
+ve
+İçtüzük
+seçeneklerinden
+                                    birini seçmek suretiyle de arama yapılabilmektedir.
+ç)
+                                        Yıl Aralığı:
+Yıl Aralığı
+kutucuklarını doldurarak arama kapsamı daraltılabilmektedir.
+                                    Böylelikle daha sade sonuçlar elde edilebilmektedir.
+d)
+                                        Tam Cümle:
+Aranacak İfade
+kutucuğuna birden fazla kelime yazıldığında
+Tam Cümle
+kutucuğu
+                                    işaretlenerek kelimeler yan yana ve cümle içerisinde aranır.
+Tam Cümle
+kutucuğunu
+                                    tıklanıp,
+Aranacak Yer
+kutucuğundan
+“Başlık, İçerik,
+                                        Tümü”
+seçeneklerinden biri daha seçilirse daha sade arama sonuçları
+                                    elde edilebilmektedir.
+Arama tamamlanıp, istenilen mevzuat görüntülenince
+                                        aşağıda belirtilen simgeye tıklamak suretiyle ekrandaki metin yazıcıya gönderilebilmekte
+                                        ve mevzuat basılı hale getirilebilmektedir.
+8-
+                                        KURUM, KURULUŞ VE ÜNİVERSİTE YÖNETMELİKLERİ
+a)
+                                        Aranacak İfade:
+Aranacak İfade
+kutucuğuna aramak istenilen kelime ya da kelimeler yazılmak
+                                    suretiyle arama yapılabilir. Arama
+içerik
+veya
+başlık
+olarak
+                                    sınırlandırılmamışsa aranılan kelimenin bulunduğu tüm karar listelenir.
+b)
+                                        Aranacak Yer:
+Aranmak istenen
+                                    kelime/kelimeler ile birlikte içerik veya başlık sınırlandırılması yapılırsa
+                                    daha sade sonuçlar elde edilir.
+c)
+                                        Türü:
+Türü
+kutucuğundan
+Üniversite
+                                        Yönetmelikleri
+,
+Kurum ve Kuruluş Yönetmelikleri
+seçeneklerini
+                                    kullanarak sonuçlar sınırlandırılabileceği gibi
+Tümü
+seçeneğini
+                                    kullanarak kapsamlı arama yapılabilmektedir.
+ç)
+                                        Yıl Aralığı:
+Yıl Aralığı
+kutucuklarını doldurarak arama kapsamı daraltılabilmektedir.
+                                    Böylelikle daha sade sonuçlar elde edilebilmektedir.
+d)
+                                        Tam Cümle:
+Aranacak İfade
+kutucuğuna birden fazla kelime yazıldığında
+Tam Cümle
+kutucuğu
+                                    işaretlenerek kelimeler yan yana ve cümle içerisinde aranır.
+Tam Cümle
+kutucuğunu
+                                    tıklanıp,
+Aranacak Yer
+kutucuğundan
+“Başlık, İçerik,
+                                        Tümü”
+seçeneklerinden biri daha seçilirse daha sade arama sonuçları
+                                    elde edilebilmektedir.
+Arama
+                                    tamamlanıp, istenilen mevzuat görüntülenince aşağıda belirtilen simgeye
+                                    tıklamak suretiyle ekrandaki metin yazıcıya gönderilebilmekte ve mevzuat basılı
+                                    hale getirilebilmektedir.
+9-
+                                        TEBLİĞLER
+a)
+                                        Aranacak İfade:
+Aranacak İfade
+kutucuğuna aramak istenilen kelime ya da kelimeler yazılmak
+                                    suretiyle arama yapılabilir. Arama
+içerik
+veya
+başlık
+olarak
+                                    sınırlandırılmamışsa aranılan kelimenin bulunduğu tüm karar listelenir.
+b)
+                                        Aranacak Yer:
+Aranmak istenen
+                                    kelime/kelimeler ile birlikte
+içerik
+veya
+başlık
+sınırlandırılması
+                                    yapılırsa daha sade sonuçlar elde edilir.
+c)
+                                        Kurum – Alt Kurum:
+Tebliğler içinde arama
+                                    yaparken istenirse
+Kurum
+veya
+Alt Kurum
+seçilerek
+                                    de arama yapılabilmektedir. Böylelikle daha sade sonuçlar elde edilir.
+ç)
+                                        Yıl Aralığı:
+Yıl Aralığı
+kutucuklarını doldurarak arama kapsamı daraltılabilmektedir.
+                                    Böylelikle daha sade sonuçlar elde edilebilmektedir.
+d) Tam
+                                        Cümle:
+Aranacak İfade
+kutucuğuna birden fazla kelime yazıldığında
+Tam Cümle
+kutucuğu
+                                    işaretlenerek kelimeler yan yana ve cümle içerisinde aranır.
+Tam Cümle
+kutucuğunu
+                                    tıklanıp,
+Aranacak Yer
+kutucuğundan
+“Başlık, İçerik,
+                                        Tümü”
+seçeneklerinden biri daha seçilirse daha sade arama sonuçları
+                                    elde edilebilmektedir.
+Arama
+                                    tamamlanıp, istenilen mevzuat görüntülenince aşağıda belirtilen simgeye
+                                    tıklamak suretiyle ekrandaki metin yazıcıya gönderilebilmekte ve mevzuat basılı
+                                    hale getirilebilmektedir.
+C) ÜST PANEL
+                                        BÖLÜMÜ
+1- MEVZUAT TÜRÜ
+Üst Menüde yer
+                                    alan
+Mevzuat Türü
+başlıklı sekmeden
+                                    tüm mevzuatlar bir arada görüntülenebilmektedir. Bu sekme Ana Menüde yer alan,
+                                    gelişmiş arama yapmayı sağlayan ekrana yönlendirmektedir.
+Mevzuat Türü
+                                    başlığı içerisinde tüm Yönetmelik türleri bir arada gösterilmektedir.
+                                    Kullanıcılar “Türü” sekmesini kullanarak Cumhurbaşkanlığı Yönetmeliklerine, Bakanlar
+                                    Kurulu Yönetmeliklerine, Kurum ve Kuruluş Yönetmelikleri ile Üniversite
+                                    Yönetmeliklerine tek tıkla ve ayrı ayrı kolaylıkla ulaşabilecektir.
+2- T.C. ANAYASASI
+Üst Panel
+başlıklı bölümün ikinci sırasında yer alan
+T.C. Anayasası
+başlığına
+                                    tıklandığında alt tarafta Anayasa metni açılır. Metnin sol üst köşesinde
+                                    bulunan Word ve PDF butonları kullanılarak T.C. Anayasası metni indirilebilir.
+                                    Aynı zamanda Word, PDF simgelerinin yanında, sol üst köşede bulunan simgeye
+                                    tıklamak suretiyle, görüntülenen ekran yazdırılabilir hale getirilebilmektedir.
+3-MÜLGA
+                                        KANUNLAR
+Üst
+                                    panelde yer alan bu sekme kullanılarak yürürlükten kaldırılan bazı kanunlar ile
+                                    ilgili içeriklere ulaşılabilmektedir.
+4-KANUNLAR FİHRİSTİ
+Mevzuat
+                                    Bilgi Sistemi
+Üst Panel
+başlıklı bölümünde yer alan
+Kanunlar Fihristi bölümünde kanunların nümerik fihrist arama ekranı yer
+                                    almaktadır. Nümerik Fihrist; 7/2/1921 tarihli ve 1 sayılı Ağnam Resmi Kanundan
+                                    son yayımlanan Kanuna kadar sayı verilmiş tüm kanunların yer aldığı bir
+                                    fihristtir. Fihristte yürürlükte olan kanunların yanı sıra yürürlükte olup ana
+                                    kanunlarda değişiklik yapan veya ek hüküm getiren kanunlar da yer almaktadır.
+                                    Yürürlükte olmayan kanunların karşılarında ise hangi kanunla kaldırıldığı ya da
+                                    hangi Anayasa Mahkemesi kararı ile iptal edildiği, yayımlandığı Resmî Gazete
+                                    belirtilerek yazılmış bulunmaktadır. Külliyatlarda yayımlanmayan kanunların
+                                    nitelikleri hakkında (bütçe, özel, af gibi) karşılarında açıklama yapılmıştır.
+Kanunlar
+                                    Fihristinde yapılan aramada çıkan Kanunun Resmî Gazete tarihi veya sayısına
+                                    tıklandığında yayımlandığı günün Resmî Gazetesine gider. Kanunun tüm
+                                    değişikliklerinin işlendiği güncel metne ulaşılmak istenirse, Mevzuat Türü
+                                    bölümünün altındaki Kanunlar butonundan arama yapılması gerekmektedir.
+5- CUMHURBAŞKANLIĞI KARARNAMELERİ FİHRİSTİ
+Mevzuat
+                                    Bilgi Sistemi açılış sayfasında görüntülenen Cumhurbaşkanlığı Kararnameleri
+                                    Fihristi bölümünden ek ve değişiklik getirenler dâhil olmak üzere yayımlanan
+                                    tüm Cumhurbaşkanlığı Kararnamelerinin nümerik fihristi yer almaktadır.
+Cumhurbaşkanlığı
+                                    Kararnameleri Fihristinde yapılan aramada çıkan Cumhurbaşkanlığı Kararnamesine
+                                    tıklandığında yayımlandığı günün Resmî Gazetesine gider. Cumhurbaşkanlığı
+                                    Kararnamelerinin tüm değişikliklerinin işlendiği güncel metne ulaşılmak
+                                    istenirse, Mevzuat Türü bölümünün altındaki Cumhurbaşkanlığı Kararnameleri
+                                    butonundan arama yapılması gerekmektedir.
+6-YAYINLAR
+Yayınlar sekmesi tıklandığında
+                                    tarafımızca hazırlanıp, kitaplaştırılan çalışmalara PDF formatında ulaşılabilmektedir.
+7-OTURUM AÇ
+Oturum
+                                    aç sekmesi kullanılarak sisteme üye olunabilmektedir. Üyelik aracılığıyla
+                                    istenilen mevzuat türleri favorilere eklenebilmektedir. Böylelikle kullanıcı
+                                    kişiselleştirilmiş favori mevzuat paneli oluşturabilmekte, görüntülenmek
+                                    istenilen mevzuata tekrar arama yapmadan, favori mevzuat paneli üzerinden
+                                    kolaylıkla ulaşabilmektedir. Aynı zamanda kullanıcılar bu alanı kullanarak
+                                    üyelik bilgilerini görüntüleyebilmekte ve şifre değişikliği yapabilmektedir.
+D)
+                                        SİTE HARİTASI BÖLÜMÜ
+Bu bölüm; solda
+Hakkımızda
+,
+Yardım
+ve
+Adres
+bölümlerinden,
+                                    sağda ise
+Resmî Gazete
+,
+Faydalı Linkler
+ve
+İletişim
+                                        Bilgileri
+bölümlerinden oluşur.
+Sağ alt köşede bulunan
+                                    iletişim numaraları veya Bize Ulaşın butonu kullanılarak mevzuat, web site ve
+                                    mobil uygulama ile ilgili soru, görüş, öneriler Mevzuat Bilgi Sistemi
+                                    editörlerine iletilebilmektedir.
+Bu alandan, sağ üst
+                                    köşede bulunan Resmî Gazete sekmesine tıklanarak web siteler arasında tek tıkla
+                                    ve hızlı geçiş yapılabilmektedir.
+×
+Kapat
+Hakkımızda
+Yardım
+Resmî Gazete
+Faydalı Linkler
+T.C. Cumhurbaşkanlığı Külliyesi
+Hukuk ve Mevzuat Genel Müdürlüğü 06560 Beştepe / Ankara
+Bize Ulaşın
+T.C. Cumhurbaşkanlığı Genel Sekreterliği Hukuk ve Mevzuat Genel Müdürlüğü
+2020 Tüm Hakları Saklıdır. Gizlilik,
+                            Kullanım ve Telif Hakları bildiriminde belirtilen kurallar çerçevesinde hizmet
+                            sunulmaktadır.
+Bize Ulaşın
+×
+Adınız
+Soyadınız
+E-Posta Adresiniz
+Mesleğiniz
+Konu
+Seçiniz
+Mevzuat Hakkında
+İnternet Sitesi Hakkında
+Diğer
+Mesaj
+Gönder
+×
+Giriş
+Yeni Üyelik
+Şifremi Unuttum
+Yeni Üyelik
+×
+Kaydet
+Kaydı tamamladığınızda e-posta adresinize aktivasyon için mesaj gönderilecektir.
+Aktivasyon işlemi sonrası sisteme giriş yapabilirsiniz.
+Şifremi Unuttum
+×
+Şifrenizi sıfırlamak için lütfen sistemde kayıtlı e-posta adresinizi giriniz.
+Gönder
+Şifremi Unuttum
+×
+Güncelle
+Tamam

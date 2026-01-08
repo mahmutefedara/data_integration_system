@@ -1,0 +1,28 @@
+[
+  {
+    "file_id": "53469660c033f1367bbfa45b0c3453b82ff2b926",
+    "job_id": "f5f2a1d0-33d9-4056-9ccd-7f44de5ccdb0",
+    "url": "https://mevzuat.gov.tr/MevzuatMetin/1.5.2709.doc",
+    "domain": "mevzuat.gov.tr",
+    "depth": 1,
+    "file_path": "data/mevzuat_gov_tr/files_text/53469660c033f1367bbfa45b0c3453b82ff2b926.txt",
+    "content_type": "application/msword",
+    "size_bytes": 66,
+    "agent_id": "bc001",
+    "project_id": 6,
+    "content_hash": "0933070caabe429c3f85018b57619fe7dd3164958d0f360a198d480ee0a43feb"
+  },
+  {
+    "file_id": "09601c7b6a168e50c7dcf3f0b58fa81ee3861c70",
+    "job_id": "f5f2a1d0-33d9-4056-9ccd-7f44de5ccdb0",
+    "url": "https://mevzuat.gov.tr/MevzuatMetin/1.5.2709.pdf",
+    "domain": "mevzuat.gov.tr",
+    "depth": 1,
+    "file_path": "data/mevzuat_gov_tr/files_text/09601c7b6a168e50c7dcf3f0b58fa81ee3861c70.txt",
+    "content_type": "application/pdf",
+    "size_bytes": 216645,
+    "agent_id": "bc001",
+    "project_id": 6,
+    "content_hash": "9e6338f8716446473641c056ace4bd07eb70b55f89d1d548613dd0a0d26301ca"
+  }
+]

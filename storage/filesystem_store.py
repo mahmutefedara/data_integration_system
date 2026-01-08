@@ -59,7 +59,6 @@ class FilesystemStore:
                     raw = json.loads(await f.read() or "[]")
                 self._pages = [PageRecord(**x) for x in raw]
             except Exception:
-                # index bozuksa incremental yine çalışsın diye sessiz geçiyoruz
                 self._pages = []
 
         if os.path.exists(files_index):
@@ -79,6 +78,8 @@ class FilesystemStore:
         content_type: str,
         links: list[str],
         discovered_files: list[str],
+        agent_id: str,
+        project_id: int
     ) -> PageRecord:
         self.ensure_dirs(job)
         base = self.job_dir(job)
@@ -94,7 +95,7 @@ class FilesystemStore:
         if existing:
             old_hash = (getattr(existing, "content_hash", "") or "").strip()
 
-            # ✅ 1) ESKİ INDEX MIGRATION: content_hash yoksa BACKFILL (UPDATED basma)
+
             if not old_hash:
                 existing.content_hash = new_hash
                 existing.text_len = new_len
@@ -105,12 +106,12 @@ class FilesystemStore:
                 print(f"[DOC][PAGE][BACKFILL_HASH] depth={depth} url={url}")
                 return existing
 
-            # ✅ 2) Hash aynıysa SKIP (rewrite yok)
+
             if old_hash == new_hash:
                 print(f"[DOC][PAGE][SKIP_SAME] depth={depth} url={url}")
                 return existing
 
-            # ✅ 3) Hash farklıysa gerçekten UPDATE (rewrite var)
+
             async with aiofiles.open(txt_path, "w", encoding="utf-8") as f:
                 await f.write(text or "")
 
@@ -124,7 +125,7 @@ class FilesystemStore:
             print(f"[DOC][PAGE][UPDATED] depth={depth} chars={new_len} url={url}")
             return existing
 
-        # 🆕 İlk kez görülen sayfa
+
         async with aiofiles.open(txt_path, "w", encoding="utf-8") as f:
             await f.write(text or "")
 
@@ -140,6 +141,8 @@ class FilesystemStore:
             discovered_files=discovered_files,
             content_hash=new_hash,
             text_len=new_len,
+            agent_id=agent_id,
+            project_id=project_id
         )
 
         self._pages.append(rec)
@@ -151,53 +154,46 @@ class FilesystemStore:
         fid = hash_url(url)
         return os.path.join(base, "files_text", f"{fid}.txt")
 
-    async def save_file_text(
-        self,
-        job: CrawlJob,
-        url: str,
-        depth: int,
-        text: str,
-        content_type: str,
-        size_bytes: int,
-    ) -> FileRecord:
+    async def save_file_text(self, job: CrawlJob, url: str, depth: int, text: str,
+                             content_type: str, size_bytes: int, agent_id: str, project_id: int) -> FileRecord:
         self.ensure_dirs(job)
-
         fid = hash_url(url)
         txt_path = self._file_txt_path(job, url)
+        new_hash = hash_text(text)  # Yazının hash'ini al
 
-        if job.incremental and os.path.exists(txt_path):
-            if not any(x.file_id == fid for x in self._files):
-                self._files.append(
-                    FileRecord(
-                        file_id=fid,
-                        job_id=job.job_id,
-                        url=url,
-                        domain=get_domain(url),
-                        depth=depth,
-                        file_path=txt_path,
-                        content_type=content_type,
-                        size_bytes=size_bytes,
-                    )
-                )
-            return next(x for x in self._files if x.file_id == fid)
+        # 1. Listede var mı bak
+        existing = next((x for x in self._files if x.file_id == fid), None)
 
+        if existing:
+            # 2. Hash kontrolü yap (Değişmiş mi?)
+            old_hash = getattr(existing, "content_hash", "")
+            if old_hash == new_hash:
+                # İçerik aynıysa sadece metadata güncelle ve dön
+                existing.depth = depth
+                return existing
+
+            # 3. İçerik değişmişse dosyayı güncelle
+            async with aiofiles.open(txt_path, "w", encoding="utf-8") as f:
+                await f.write(text or "")
+
+            existing.content_hash = new_hash
+            existing.size_bytes = len((text or "").encode("utf-8"))
+            existing.depth = depth
+            return existing
+
+        # 4. Hiç yoksa yeni kayıt oluştur (Yeni dosya)
         async with aiofiles.open(txt_path, "w", encoding="utf-8") as f:
             await f.write(text or "")
 
         rec = FileRecord(
-            file_id=fid,
-            job_id=job.job_id,
-            url=url,
-            domain=get_domain(url),
-            depth=depth,
-            file_path=txt_path,
-            content_type=content_type,
-            size_bytes=len((text or "").encode("utf-8", errors="ignore")),
+            file_id=fid, job_id=job.job_id, url=url, domain=get_domain(url),
+            depth=depth, file_path=txt_path, content_type=content_type,
+            size_bytes=len((text or "").encode("utf-8")),
+            content_hash=new_hash,
+            agent_id=agent_id, project_id=project_id
         )
-
-        if not any(x.file_id == fid for x in self._files):
-            self._files.append(rec)
-
+        self._files.append(rec)
+        print(f"--- SUCCESS: File saved and added to index: {url} ---")  # Bunu ekle
         return rec
 
     async def write_indexes(self, job: CrawlJob):

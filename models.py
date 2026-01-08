@@ -50,9 +50,10 @@ class PageRecord:
     content_type: str
     discovered_links: List[str]
     discovered_files: List[str]
-
     content_hash: str = ""
     text_len: int = 0
+    agent_id: str = "default_agent_id"
+    project_id: int = 1
 
 
 @dataclass
@@ -65,3 +66,6 @@ class FileRecord:
     file_path: str
     content_type: str
     size_bytes: int
+    agent_id: str = "default_agent_id"
+    project_id: int = 1
+    content_hash: str = ""
