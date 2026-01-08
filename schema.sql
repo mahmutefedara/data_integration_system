@@ -2,7 +2,7 @@
 -- PostgreSQL database dump
 --
 
-\restrict ohSfNPbW6hpzwj32RzESLKH5Bwgd2bbPCBXORv3aNK4enRuoBT1boKTHwfL9aJN
+\restrict p69E4qJhj845ydAiDCyB26p4dJ5LIsTp0IkGGu2bbCODG3Wvunubmc6W4eGpaUM
 
 -- Dumped from database version 15.15 (Homebrew)
 -- Dumped by pg_dump version 15.15 (Homebrew)
@@ -19,23 +19,14 @@ SET client_min_messages = warning;
 SET row_security = off;
 
 --
--- Name: public; Type: SCHEMA; Schema: -; Owner: pg_database_owner
+-- Name: pgcrypto; Type: EXTENSION; Schema: -; Owner: -
 --
 
-CREATE SCHEMA public;
-
-
-ALTER SCHEMA public OWNER TO pg_database_owner;
-
---
--- Name: SCHEMA public; Type: COMMENT; Schema: -; Owner: pg_database_owner
---
-
-COMMENT ON SCHEMA public IS 'standard public schema';
+CREATE EXTENSION IF NOT EXISTS pgcrypto WITH SCHEMA public;
 
 
 --
--- Name: document_status; Type: TYPE; Schema: public; Owner: efe
+-- Name: document_status; Type: TYPE; Schema: public; Owner: -
 --
 
 CREATE TYPE public.document_status AS ENUM (
@@ -46,10 +37,8 @@ CREATE TYPE public.document_status AS ENUM (
 );
 
 
-ALTER TYPE public.document_status OWNER TO efe;
-
 --
--- Name: frontier_state; Type: TYPE; Schema: public; Owner: efe
+-- Name: frontier_state; Type: TYPE; Schema: public; Owner: -
 --
 
 CREATE TYPE public.frontier_state AS ENUM (
@@ -60,10 +49,8 @@ CREATE TYPE public.frontier_state AS ENUM (
 );
 
 
-ALTER TYPE public.frontier_state OWNER TO efe;
-
 --
--- Name: job_status; Type: TYPE; Schema: public; Owner: efe
+-- Name: job_status; Type: TYPE; Schema: public; Owner: -
 --
 
 CREATE TYPE public.job_status AS ENUM (
@@ -74,14 +61,12 @@ CREATE TYPE public.job_status AS ENUM (
 );
 
 
-ALTER TYPE public.job_status OWNER TO efe;
-
 SET default_tablespace = '';
 
 SET default_table_access_method = heap;
 
 --
--- Name: jobs; Type: TABLE; Schema: public; Owner: efe
+-- Name: jobs; Type: TABLE; Schema: public; Owner: -
 --
 
 CREATE TABLE public.jobs (
@@ -105,10 +90,8 @@ CREATE TABLE public.jobs (
 );
 
 
-ALTER TABLE public.jobs OWNER TO efe;
-
 --
--- Name: raw_documents; Type: TABLE; Schema: public; Owner: efe
+-- Name: raw_documents; Type: TABLE; Schema: public; Owner: -
 --
 
 CREATE TABLE public.raw_documents (
@@ -127,10 +110,8 @@ CREATE TABLE public.raw_documents (
 );
 
 
-ALTER TABLE public.raw_documents OWNER TO efe;
-
 --
--- Name: jobs jobs_pkey; Type: CONSTRAINT; Schema: public; Owner: efe
+-- Name: jobs jobs_pkey; Type: CONSTRAINT; Schema: public; Owner: -
 --
 
 ALTER TABLE ONLY public.jobs
@@ -138,7 +119,7 @@ ALTER TABLE ONLY public.jobs
 
 
 --
--- Name: raw_documents raw_documents_pkey; Type: CONSTRAINT; Schema: public; Owner: efe
+-- Name: raw_documents raw_documents_pkey; Type: CONSTRAINT; Schema: public; Owner: -
 --
 
 ALTER TABLE ONLY public.raw_documents
@@ -146,7 +127,7 @@ ALTER TABLE ONLY public.raw_documents
 
 
 --
--- Name: raw_documents raw_documents_source_type_source_id_key; Type: CONSTRAINT; Schema: public; Owner: efe
+-- Name: raw_documents raw_documents_source_type_source_id_key; Type: CONSTRAINT; Schema: public; Owner: -
 --
 
 ALTER TABLE ONLY public.raw_documents
@@ -154,14 +135,14 @@ ALTER TABLE ONLY public.raw_documents
 
 
 --
--- Name: idx_jobs_agent_project; Type: INDEX; Schema: public; Owner: efe
+-- Name: idx_jobs_agent_project; Type: INDEX; Schema: public; Owner: -
 --
 
 CREATE INDEX idx_jobs_agent_project ON public.jobs USING btree (agent_id, project_id);
 
 
 --
--- Name: idx_jobs_status_created; Type: INDEX; Schema: public; Owner: efe
+-- Name: idx_jobs_status_created; Type: INDEX; Schema: public; Owner: -
 --
 
 CREATE INDEX idx_jobs_status_created ON public.jobs USING btree (status, created_at);
@@ -171,5 +152,5 @@ CREATE INDEX idx_jobs_status_created ON public.jobs USING btree (status, created
 -- PostgreSQL database dump complete
 --
 
-\unrestrict ohSfNPbW6hpzwj32RzESLKH5Bwgd2bbPCBXORv3aNK4enRuoBT1boKTHwfL9aJN
+\unrestrict p69E4qJhj845ydAiDCyB26p4dJ5LIsTp0IkGGu2bbCODG3Wvunubmc6W4eGpaUM
 
