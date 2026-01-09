@@ -1,6 +1,5 @@
 import asyncio
 import os
-import logging
 from typing import Set, List, Optional
 from urllib.parse import urlparse, urljoin
 
