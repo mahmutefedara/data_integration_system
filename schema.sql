@@ -2,7 +2,7 @@
 -- PostgreSQL database dump
 --
 
-\restrict OjOtXeRpGv9zivQbUallP5X7vHC5DhCNZm16WTeQlvyYERLSkH5LGxt3Plxm8PC
+\restrict TkYg07FWTzPUdkhTGb0G7yiK4bOVjJx47KoDo5TkvJNCWpRVH9qkbzrI4rZeqqU
 
 -- Dumped from database version 15.15 (Homebrew)
 -- Dumped by pg_dump version 15.15 (Homebrew)
@@ -86,7 +86,8 @@ CREATE TABLE public.jobs (
     download_only_same_domain boolean DEFAULT true,
     incremental boolean DEFAULT true,
     agent_id text NOT NULL,
-    project_id integer NOT NULL
+    project_id integer NOT NULL,
+    documents_only boolean DEFAULT false
 );
 
 
@@ -169,5 +170,5 @@ CREATE INDEX idx_raw_documents_agent_project ON public.raw_documents USING btree
 -- PostgreSQL database dump complete
 --
 
-\unrestrict OjOtXeRpGv9zivQbUallP5X7vHC5DhCNZm16WTeQlvyYERLSkH5LGxt3Plxm8PC
+\unrestrict TkYg07FWTzPUdkhTGb0G7yiK4bOVjJx47KoDo5TkvJNCWpRVH9qkbzrI4rZeqqU
 
