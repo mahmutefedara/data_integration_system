@@ -24,6 +24,7 @@ class PostgresStore:
     # -------------------- JOB QUEUE --------------------
 
     async def pick_job(self):
+        # NOT: jobs tablonuzda 'documents_only' kolonu mutlaka bulunmalıdır.
         q = """
         UPDATE jobs
         SET status = 'RUNNING',
@@ -61,7 +62,7 @@ class PostgresStore:
                 error      = 'stale job timeout',
                 updated_at = NOW()
             WHERE status = 'RUNNING'
-              AND updated_at < NOW() - ($1 * INTERVAL '1 minute') \
+              AND updated_at < NOW() - ($1 * INTERVAL '1 minute')
             """
         async with self.pool.acquire() as con:
             await con.execute(q, timeout_minutes)
@@ -81,10 +82,10 @@ class PostgresStore:
             project_id: int
     ):
         q = """
-            INSERT INTO raw_documents (source_type, url, domain, \
-                                       content, content_hash, content_length, \
+            INSERT INTO raw_documents (source_type, url, domain,
+                                       content, content_hash, content_length,
                                        job_id, site_key, agent_id, project_id)
-            VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) ON CONFLICT (content_hash) DO NOTHING \
+            VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) ON CONFLICT (content_hash) DO NOTHING
             """
         async with self.pool.acquire() as con:
             await con.execute(
@@ -102,9 +103,6 @@ class PostgresStore:
             )
 
     async def get_existing_hash(self, source_type: str, source_id: str):
-        """
-        Daha önce bu doküman DB'ye yazılmış mı?
-        """
         q = """
         SELECT content_hash
         FROM raw_documents
@@ -118,8 +116,8 @@ class PostgresStore:
         q = """
             SELECT 1
             FROM raw_documents
-            WHERE source_id = $1 \
-              AND content_hash = $2 LIMIT 1 \
+            WHERE source_id = $1
+              AND content_hash = $2 LIMIT 1
             """
         async with self.pool.acquire() as con:
             return await con.fetchval(q) is not None
@@ -128,8 +126,8 @@ class PostgresStore:
     async def upsert_raw_document(
         self,
         *,
-        source_type: str,   # "page" | "file"
-        source_id: str,     # page_id / file_id
+        source_type: str,
+        source_id: str,
         site: str,
         url: str,
         raw_text: str,
@@ -139,12 +137,6 @@ class PostgresStore:
         agent_id: str,
         project_id: int
     ):
-        """
-        Hash-aware UPSERT:
-        - content_hash aynıysa DB'ye dokunmaz
-        - farklıysa UPDATE eder
-        """
-
         old = await self.get_existing_hash(source_type, source_id)
         if old and old["content_hash"] == content_hash:
             return "SKIPPED"

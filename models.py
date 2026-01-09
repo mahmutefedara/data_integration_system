@@ -7,6 +7,7 @@ class CrawlJob:
     job_id: str
     start_urls: List[str]
     root_domain: str = ""
+    documents_only: bool = False
 
     single_page: bool = False
     path_mode: bool = False

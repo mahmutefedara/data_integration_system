@@ -26,6 +26,7 @@ class CreateJobRequest(BaseModel):
     download_files: bool = True
     download_only_same_domain: bool = True
     incremental: bool = True
+    documents_only: bool = False
 
     allowed_file_extensions: list[str] | None = None
     max_file_bytes: int | None = None
@@ -56,6 +57,7 @@ async def create_job(req: CreateJobRequest):
         "max_pages_total": req.max_pages_total,
         "concurrency": req.concurrency,
         "download_files": req.download_files,
+        "documents_only": req.documents_only,
         "download_only_same_domain": req.download_only_same_domain,
         "incremental": req.incremental,
         "allowed_file_extensions": req.allowed_file_extensions,
@@ -67,10 +69,10 @@ async def create_job(req: CreateJobRequest):
     config = {k: v for k, v in config.items() if v is not None}
 
     q = """
-        INSERT INTO jobs (job_id, start_url, root_domain, config, status, agent_id, project_id)
-        VALUES ($1, $2, $3, $4, $5, $6, $7) \
+        INSERT INTO jobs (job_id, start_url, root_domain, config, status, agent_id, project_id,documents_only,path_mode,single_page,incremental)
+        VALUES ($1, $2, $3, $4, $5, $6, $7,$8,$9,$10,$11) \
         """
     async with store.pool.acquire() as con:
-        await con.execute(q, job_id, start_url, root_domain, json.dumps(config),'PENDING',req.agent_id, req.project_id)
+        await con.execute(q, job_id, start_url, root_domain, json.dumps(config),'PENDING',req.agent_id, req.project_id, req.documents_only, req.path_mode, req.single_page, req.incremental)
 
     return {"job_id": job_id, "status": "PENDING"}

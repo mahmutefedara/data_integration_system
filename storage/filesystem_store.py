@@ -83,6 +83,8 @@ class FilesystemStore:
     ) -> PageRecord:
         self.ensure_dirs(job)
         base = self.job_dir(job)
+        if job.documents_only:
+            return None
 
         pid = hash_url(url)
         txt_path = os.path.join(base, "pages", "text", f"{pid}.txt")

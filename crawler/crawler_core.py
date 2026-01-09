@@ -73,7 +73,10 @@ class Crawler:
         self.base_path: Optional[str] = None
         if self.job.path_mode and self.job.start_urls:
             p = urlparse(self.job.start_urls[0]).path
-            self.base_path = p.rstrip("/") or "/"
+            if not p or p == "/":
+                self.base_path = "/"
+            else:
+                self.base_path = p.rstrip("/") + "/"
 
     def _in_scope(self, url: str) -> bool:
         if get_domain(url) != self.job.root_domain:
@@ -190,6 +193,7 @@ class Crawler:
                                 clean_links.append(ln)
 
                         # Sayfayı diske kaydet
+
                         page = await self.store.save_page(
                             job=self.job,
                             url=url,
@@ -202,20 +206,28 @@ class Crawler:
                             project_id=self.job.project_id
                         )
 
-                        # Sayfayı DB'ye kaydet
                         if page:
-                            await self.pg.upsert_raw_document(
-                                source_type="page",
-                                source_id=page.page_id,
-                                site=page.domain,
-                                url=page.url,
-                                raw_text=text,
-                                content_hash=page.content_hash,
-                                content_type=page.content_type,
-                                text_len=page.text_len,
-                                agent_id=self.job.agent_id,
-                                project_id=self.job.project_id
-                            )
+                            discovered_links = page.discovered_links
+                            discovered_files = page.discovered_files
+                        else:
+                            discovered_links = clean_links
+                            discovered_files = file_links
+
+                        # Sayfayı DB'ye kaydet
+                        if not self.job.documents_only:
+                            if page:
+                                await self.pg.upsert_raw_document(
+                                    source_type="page",
+                                    source_id=page.page_id,
+                                    site=page.domain,
+                                    url=page.url,
+                                    raw_text=text,
+                                    content_hash=page.content_hash,
+                                    content_type=page.content_type,
+                                    text_len=page.text_len,
+                                    agent_id=self.job.agent_id,
+                                    project_id=self.job.project_id
+                                )
 
                         # Bulunan dosyaları işle
                         for f in file_links:
@@ -227,6 +239,8 @@ class Crawler:
                                 if ln not in self.enqueued_pages:
                                     self.enqueued_pages.add(ln)
                                     queue.put_nowait(UrlContext(ln, depth + 1))
+                        else:
+                            pass
 
                 except Exception as e:
                     print(f"[ERROR][WORKER-{wid}] {url}: {e}")
