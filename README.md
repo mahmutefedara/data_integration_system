@@ -27,8 +27,8 @@ CrawlerZero, web sitelerinden hiyerarşik olarak veri toplayan, dökümanları (
 2. Bağımlılıkların Yüklenmesi
 Bash
 
-git clone https://github.com/kullanici/crawler_zero.git
-cd crawler_zero
+git clone https://github.com/mahmutefedara/data_integration_system.git
+cd data_integration_system
 pip install -r requirements.sh
 
 3. Veritabanı Hazırlığı
@@ -70,7 +70,7 @@ CREATE TABLE raw_documents (
 Sistemi tek bir komutla ayağa kaldırmak için launcher.py scriptini kullanabilirsiniz:
 Bash
 
-python3 launcher.py
+python3 launcher.py // Henüz erişilebilir değil | python3 -m workers.worker_daemon ve uvicorn api.main:app --host 0.0.0.0 --port 8000
 
 Bu komut hem FastAPI sunucusunu hem de Worker Daemon'ı paralel olarak başlatır.
 📑 API Kullanımı
@@ -92,21 +92,10 @@ curl -X POST http://127.0.0.1:8000/jobs \
 
 Parametre Açıklamaları
 Parametre	Açıklama
-path_mode	true ise sadece başlangıç URL'inin alt klasörlerini tarar.
-documents_only	true ise HTML metinlerini DB'ye kaydetmez, sadece dosyaları (PDF vb.) kaydeder.
-download_only_same_domain	Dış sitelere verilen döküman linklerini indirmeyi engeller.
-incremental	Daha önce çekilen ve değişmeyen içerikleri atlar.
-📂 Dosya Yapısı
-
-    api/: FastAPI endpointleri ve istek modelleri.
-
-    workers/: Arka planda çalışan tarayıcı (crawler) mantığı.
-
-    storage/: Yerel dosya sistemi (JSON index) yönetimi.
-
-    db/: PostgreSQL bağlantı ve sorgu katmanı.
-
-    utils/: Hashleme, domain ayıklama ve metin temizleme araçları.
+path_mode:	true ise sadece başlangıç URL'inin alt klasörlerini tarar.
+documents_only:	true ise HTML metinlerini DB'ye kaydetmez, sadece dosyaları (PDF vb.) kaydeder.
+download_only_same_domain:	Dış sitelere verilen döküman linklerini indirmeyi engeller.
+incremental:	Daha önce çekilen ve değişmeyen içerikleri atlar.
 
 📝 Lisans
 
